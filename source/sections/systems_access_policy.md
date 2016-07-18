@@ -1,6 +1,6 @@
 # System Access Policy
 
-Access to Provata Health systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization’s information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
+Access to Provata Health systems and application is limited for all users, including but not limited to workforce members, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization’s information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
@@ -31,10 +31,10 @@ Access to Provata Health systems and application is limited for all users, inclu
 
 ## Access Establishment and Modification
 
-* Requests for access to Provata Health Platform systems and applications is made formally to the VP of Engineering, Privacy Officer, or Security Officer.
+* Requests for access to Provata Health Platform systems and applications is made formally to the CEO, Privacy Officer, or Security Officer.
 * Access is not granted until receipt, review, and approval by the Provata Health Security Officer;
 * The request for access is retained for future reference.
-* All access to Provata Health systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commensurate with job functions. The form used to conduct account review is [here](https://docs.google.com/a/provatahealth.com/forms/d/e/1FAIpQLSdk5a64EwfRQpuJm0koBb-PznGXIVYGkAK7nrACu7Cn1zRhCg/viewform).
+* All access to Provata Health systems and services are reviewed and updated on an annual basis to assure proper authorizations are in place commensurate with job functions. The form used to conduct account review is [here](https://docs.google.com/a/provatahealth.com/forms/d/e/1FAIpQLSdk5a64EwfRQpuJm0koBb-PznGXIVYGkAK7nrACu7Cn1zRhCg/viewform).
 * Any Provata Health workforce member can request change of access using this [form](https://docs.google.com/a/provatahealth.com/forms/d/e/1FAIpQLSdlSCB73EYNDeDmOK7Id9r5JVrwCN13YqJcxASvIm08bq63UA/viewform).
 * Access to systems is controlled using centralized user management and authentication. All authentication requests utilize two factor authentication using mobile devices as the second factor.
 * Temporary accounts are not used unless absolutely necessary for business purposes.
@@ -57,7 +57,7 @@ Access to Provata Health systems and application is limited for all users, inclu
 
 ## Access Authorization
 
-* Role based access categories for each Provata Health system and application are pre-approved by the Security Officer or VP of Engineering.
+* Role based access categories for each Provata Health system and application are pre-approved by the Security Officer or Privacy Officer.
 * Provata Health utilizes hardware and software firewalls to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
 
 ## Person or Entity Authentication
@@ -85,7 +85,7 @@ All workstations at Provata Health are company owned, and all are laptop Apple p
 
 * Workstations may not be used to engage in any activity that is illegal or is in violation of organization’s policies.
 * Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or “X-rated”. Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual’s race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization’s system.
-* Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization’s best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
+* Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization’s best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval of the Privacy Officer.
 * Solicitation of non-company business, or any use of organization’s information systems/applications for personal gain is prohibited. 
 * Transmitted messages may not contain material that criticizes organization, its providers, its employees, or others.
 * Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
@@ -107,7 +107,7 @@ All workstations at Provata Health are company owned, and all are laptop Apple p
 ## Employee Termination Procedures
 
 * The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the “Termination Checklist".
-* The Human Resources Department, users, and supervisors are required to notify the IS Help Desk to terminate a user’s access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
+* The Human Resources Department, users, and supervisors are required to notify the Security Officer to terminate a user’s access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
 	* The user has been using their access rights inappropriately;
 	* A user’s password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
 	* An unauthorized individual is utilizing a user’s User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
@@ -129,7 +129,7 @@ Provata Health does not use paper records for any sensitive information. Use of 
 * All default system, application, and Partner passwords are changed before deployment to production.
 * Upon initial login, users must change any passwords that were automatically generated for them.
 * All passwords used in configuration scripts are secured and encrypted.
-* If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
+* If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Officer.
 
 ## PaaS Customer Access to Systems
 
