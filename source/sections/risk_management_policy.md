@@ -56,15 +56,15 @@ This policy establishes the scope, objectives, and procedures of Provata Health'
 
 * Step 5. Likelihood Determination
 	* Determine the overall likelihood rating that indicates the probability that a vulnerability could be exploited by a threat-source given the existing or planned security controls.
-	* Output – Likelihood rating of low (.1), medium (.5), or high (1). Refer to the NIST SP 800-30 definitions of low, medium, and high.
+	* Output – Likelihood rating of low, medium, or high. Refer to the NIST SP 800-30 definitions of low, medium, and high.
 
 * Step 6. Impact Analysis
 	* Determine the level of adverse impact that would result from a threat successfully exploiting a vulnerability. Factors of the data and systems to consider should include the importance to Provata Health's mission; sensitivity and criticality (value or importance); costs associated; loss of confidentiality, integrity, and availability of systems and data.
-	* Output – Magnitude of impact rating of low (10), medium (50), or high (100). Refer to the NIST SP 800-30 definitions of low, medium, and high.
+	* Output – Magnitude of impact rating of low, medium, or high. Refer to the NIST SP 800-30 definitions of low, medium, and high.
 
 * Step 7. Risk Determination
 	* Establish a risk level. By multiplying the ratings from the likelihood determination and impact analysis, a risk level is determined. This represents the degree or level of risk to which an IT system, facility, or procedure might be exposed if a given vulnerability were exercised. The risk rating also presents actions that senior management must take for each risk level.
-	* Output – Risk level of low (1-10), medium (>10-50) or high (>50-100). Refer to the NIST SP 800-30 definitions of low, medium, and high.
+	* Output – Risk level of low, medium or high. Refer to the NIST SP 800-30 definitions of low, medium, and high.
 
 * Step 8. Control Recommendations
 	* Identify controls that could reduce or eliminate the identified risks, as appropriate to the organization’s operations to an acceptable level. Factors to consider when developing controls may include effectiveness of recommended options (i.e., system compatibility), legislation and regulation, organizational policy, operational impact, and safety and reliability. Control recommendations provide input to the risk mitigation process, during which the recommended procedural and technical security controls are evaluated, prioritized, and implemented.
