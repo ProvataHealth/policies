@@ -55,12 +55,12 @@ The following order of succession to ensure that decision-making authority for t
 
 The following teams have been developed and trained to respond to a contingency event affecting the IT system. 
 
-1. The **Ops Team** is responsible for recovery of the Provata Health hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Provata Health. The team leader is the VP of Engineering and directs the Dev Ops Team. 
+1. The **Ops Team** is responsible for recovery of the Provata Health hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Provata Health. The team leader is the CTO and directs the Dev Ops Team. 
 2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
 
 ## Testing and Maintenance
 
-The CTO and VP of Engineering shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan’s execution. At a minimum the Contingency Plan shall be tested annually (within 365 days). The types of validation/testing exercises include tabletop and technical testing. Contingency Plans for all application systems must be tested at a minimum using the tabletop testing process. However, if the application system Contingency Plan is included in the technical testing of their respective support systems that technical test will satisfy the annual requirement.
+The CTO shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan’s execution. At a minimum the Contingency Plan shall be tested annually (within 365 days). The types of validation/testing exercises include tabletop and technical testing. Contingency Plans for all application systems must be tested at a minimum using the tabletop testing process. However, if the application system Contingency Plan is included in the technical testing of their respective support systems that technical test will satisfy the annual requirement.
 
 ### Tabletop Testing
 
@@ -83,12 +83,12 @@ This phase addresses the initial actions taken to detect and assess damage infli
 The notification sequence is listed below:
 
 * The first responder is to notify the CTO. All known information must be relayed to the CTO.
-* The VP of Engineering is to contact the Web Services Team and inform them of the event. The CTO is to to begin assessment procedures.
+* The CTO is to contact the Web Services Team and inform them of the event. The CTO is to to begin assessment procedures.
 * The CTO is to notify team members and direct them to complete the assessment procedures outlined below to determine the extent of damage and estimated recovery time. If damage assessment cannot be performed locally because of unsafe conditions, the CTO is to following the steps below.
 	* Damage Assessment Procedures:
-	* The CTO and VP of Engineering are to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
+	* The CTO is to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
 	* Alternate Assessment Procedures:
-	* Upon notification from the CTO, the VP of Engineering is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams. 
+	* Upon notification from the CTO, the Dev Ops and Web Services Teams are to follow the procedures for damage assessments. 
 * The Provata Health Contingency Plan is to be activated if one or more of the following criteria are met:
 	* Provata Health will be unavailable for more than 48 hours.
 	* Hosting facility is damaged and will be unavailable for more than 24 hours.
