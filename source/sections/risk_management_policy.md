@@ -29,7 +29,7 @@ This policy establishes the scope, objectives, and procedures of Provata Health'
 	2. Protect against any reasonably anticipated threats or hazards to the security or integrity of Customer ePHI;
 	3. Protect against any reasonably anticipated uses or disclosures of Customer ePHI that are not permitted or required; and
 	4. Ensure compliance by all workforce members.
-4. Any risk remaining (residual) after other risk controls have been applied, requires sign off by the senior management and Provata Health’s Security Officer.
+4. Any risk remaining (residual) after other risk controls have been applied, requires sign off by Provata Health’s Security Officer.
 5. All Provata Health workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation, as outlined in the Provata Health Roles Policy.
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of Provata Health’s Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
@@ -103,7 +103,6 @@ This policy establishes the scope, objectives, and procedures of Provata Health'
 		* The recommended feasible control(s) for each identified risk;
 		* Required resources for implementation of selected controls;
 		* Team member responsible for implementation of each control;
-		* Start date for implementation
 		* Target date for completion of implementation;
 		* Maintenance requirements.
 	* The overall implementation plan provides a broad overview of the safeguard implementation, identifying important milestones and timeframes, resource requirements (staff and other individuals’ time, budget, etc.), interrelationships between projects, and any other relevant information. Regular status reporting of the plan, along with key metrics and success indicators should be reported to Provata Health Senior Management.
