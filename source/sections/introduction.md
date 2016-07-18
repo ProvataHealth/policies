@@ -2,7 +2,7 @@
 
 Odyssey Science Innovations, LLC, doing business as Provata Health ("Provata Health") is committed to ensuring the confidentiality, privacy, integrity, and availability of all electronic protected health information (ePHI) it receives, maintains, processes and/or transmits on behalf of its Customers. Provata Health strives to maintain compliance, proactively address information security, mitigate risk for its Customers, and assure known breaches are completely and effectively communicated in a timely manner. The following documents address core policies used by Provata Health to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for Provata Health Customers.
 
-Provata Health services include the provision of secure and compliant cloud-based software. This hosted software falls into two broad categories: 1) **Platform as a Service (Paas)** and 2) **Platform Add-ons**. These Categories are cited throughout polices as Customers in each category inherit different policies, procedures, and obligations from Provata Health.
+Provata Health services include the provision of a secure and compliant cloud-based digital health platform. 
 
 ## Platform as a Service (PaaS)
 
@@ -18,7 +18,7 @@ In the future there may be 3rd party Add-on services available as part of the Pr
 
 ## Compliance Inheritance
 
-Provata Health signs business associate agreements (BAAs) with Covered Entities and with its subcontractors, partners, vendors, and other service providers that may receive, provide, use, transmit, or otherwise have access to PHI. These BAAs outline each party's obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, Provata Health manages various aspects of compliance for Customers. In doing so, Provata Health helps Customers achieve and maintain compliance, as well as mitigates Customers risk.
+Provata Health signs business associate agreements (BAAs) with Covered Entities and with its subcontractors, partners, vendors, and any other service providers that may receive, provide, use, transmit, or otherwise have access to PHI. These BAAs outline each party's obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, Provata Health manages various aspects of compliance for Customers. In doing so, Provata Health helps Customers achieve and maintain compliance, as well as mitigates Customers risk.
 
 Certain aspects of compliance cannot be inherited. Because of this, Provata Health Customers, in order to achieve full compliance or HITRUST Certification, must implement certain organizational policies. These policies and aspects of compliance fall outside of the services and obligations of Provata Health.
 
@@ -29,8 +29,6 @@ Below are mappings of HIPAA Rules to Provata Health controls and a mapping of wh
 The physical infrastructure environment is hosted at [Rackspace](http://broadcast.rackspace.com/downloads/pdfs/RackspaceSecurityApproach.pdf), [Amazon Web Services](https://aws.amazon.com/) (AWS), [Microsoft Azure](https://azure.microsoft.com/), and [IBM SoftLayer](http://www.softlayer.com/). The network components and supporting network infrastructure are contained within the Rackspace, AWS, Azure, and SoftLayer infrastructures and managed by Rackspace, AWS, Microsoft, and IBM (respectively). Provata Health does not have physical access into the network components. The Provata Health environment consists of Cisco firewalls, Apache and nginx web servers, Dropwizard Java application servers, Percona and PostgreSQL database servers, Logstash logging servers, Linux Ubuntu monitoring servers, Salt configuration management server, OSSEC IDS services, Docker containers, and developer tools servers running on Linux Ubuntu.
 
 Within the Provata Health Platform on Rackspace, AWS, Azure, and SoftLayer, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Provata Health assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
-
-In the case of PaaS Customers, it is the responsibility of the Customer to restrict, secure, and assure the privacy of all ePHI data at the Application Level, as this is not under the control or purview of Provata Health.
 
 The data and network segmentation mechanism differs depending on the primitives offered by the underlying cloud provider infrastructure:
 
