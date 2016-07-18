@@ -16,10 +16,10 @@ Provata Health is committed to ensuring all workforce members actively address s
 
 ## Employment Policies
 
-1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 30 days of employment.
+1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 60 days of employment.
 	* Records of training are kept for all workforce members.
 	* Upon completion of training, workforce members complete this [form](https://docs.google.com/a/provatahealth.com/forms/d/e/1FAIpQLSdZBVFO3LaOsmrBuiuL0KMlxiS-it2O--IEN3n0N8yT0UuHJQ/viewform).
-	* Ongoing security training is conducted monthly.
+	* Ongoing security training is conducted
 	* Current Provata Health training is hosted [here](https://training.provatahealth.io/).
 2. All workforce members are granted access to formal organizational policies, which include the sanction policy for security violations.
 3. The Provata Health Employee Handbook clearly states the responsibilities and acceptable behavior regarding information system usage, including rules for email, Internet, mobile devices and social media usage.
