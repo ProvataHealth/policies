@@ -60,4 +60,4 @@ Production Systems that create, receive, store, or transmit customer data (herea
 * Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength.
 * Transmission encryption keys are limited to use for one year and then must be regenerated.
 * In the case of Provata Health provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
-* System logs of all transmissions of Production Data access. These logs must be available for audit.
+* System logs of all transmissions of Production Data access. 
