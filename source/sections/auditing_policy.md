@@ -45,7 +45,7 @@ This policy applies to all Provata Health Add-on systems, including BaaS, that s
 	* Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
 	* System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. Provata Health utilizes file system monitoring from OSSEC to assure the integrity of file system data.
 	* Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
-3. Provata Health shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Provata Health.
+3. Provata Health shall log all incoming and outgoing traffic into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Provata Health.
 4. Provata Health utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems. Alerts from OSSEC are sent to Kibana, the centralized logging service that we use.
 5. Provata Health leverages process monitoring tools throughout its environment.
 6. Provata Health treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
@@ -68,7 +68,6 @@ This policy applies to all Provata Health Add-on systems, including BaaS, that s
 	* Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).
 	* Testing shall be done on a routine basis, currently monthly.
 14. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
-	* In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Provata Health will, at it's own discretion, notify and recommend updates to customer systems.
 
 ## Audit Requests
 
@@ -124,7 +123,6 @@ A. Organizational history and experience.
 B. Available storage space.
 1. Reports summarizing audit activities shall be retained for a period of six years.
 3. Log data is currently retained and readily accessible for a 1-month period. Beyond that, log data is available via cold backup. 
-4. For Paas Customers, they choose the length of backup retention and availability that Provata Health will implement and enforce.
 
 ## Potential Trigger Events
 

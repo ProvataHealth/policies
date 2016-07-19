@@ -24,7 +24,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 
 ### Prevention of malware on Production Systems
 
-* All Production Systems must have OSSEC running at set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
+* All Production Systems must have OSSEC running at set to scan system every 2 hours and at reboot to assure no malware is present. Detected malware is evaluated and removed.
 * All Production Systems are to only be used for Provata Health business needs.
 
 ### Patch Management

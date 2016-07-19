@@ -4,8 +4,8 @@ Provata Health utilizes a suite of approved software tools for internal use by w
 
 ## List of Approved Tools
 
-* **Gitlab**. Gitlab is an open source tool built on top of Git, the version control platform. Gitlab is hosted and secured by Provata Health. It is utilized for storage of configuration scripts and other infrastructure automation tools, as well as for source and version control of application code used by Provata Health.
+* **Github**. Github is a hosted tool built on top of Git, the version control platform. It is utilized for storage of configuration scripts and other infrastructure automation tools, as well as for source and version control of application code used by Provata Health.
 
-* **Box**. Box is used for storage of files and sharing of files with Partners and Customers.
+* **Dropbox**. Dropbox is used for storage of files and sharing of files with Partners and Customers.
 
 * **Google Apps**. Google Apps is used for email and document collaboration.

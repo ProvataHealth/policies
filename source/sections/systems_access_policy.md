@@ -91,7 +91,7 @@ All workstations at Provata Health are company owned, and all are laptop Apple p
 * Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
 * Workstation hard drives will be encrypted using FileVault 2.0.
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-* All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Provata Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.provatahealth.io) and have completed this training (https://training.provatahealth.io). Please contact us if you have problems with this - privacy@provatahealth.com.*
+* All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Provata Health. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.provatahealth.io) and have completed this training (https://training.provatahealth.io). Please contact us if you have problems with this - privacy@provatahealth.com.*
 
 ## Wireless Access Use
 
@@ -122,7 +122,7 @@ Provata Health does not use paper records for any sensitive information. Use of 
 
 * User IDs and passwords are used to control access to Provata Health systems and may not be disclosed to anyone for any reason.
 * Users may not allow anyone, for any reason, to have access to any information system using another user’s unique user ID and password.
-* On all production systems and application in the Provata Health environment, password configurations are set to require that passwords are a minimum of 8 character length, 90 day password expiration, account lockout after 5 invalid attempts, password history of last 4 passwords remembered, and account lockout after 15 minutes of inactivity.
+* On all production systems and application in the Provata Health environment, password configurations are set to require that passwords are a minimum of 8 character length, 90 day password expiration, account lockout after 5 invalid attempts (where available), password history of last 4 passwords remembered, and account lockout after 15 minutes of inactivity.
 * All system and application passwords are hashed by concatenating the user's password and a random 256-bit salt value, generated on a per-user basis, and then applying SHA-256 to the value to create a password hash. The password hash and the salt are then stored in the backend database and are used for password validation on future user authentication attempts.
 * Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
 * Passwords are inactivated immediately upon an employee’s termination (refer to the termination procedures in this policy).
@@ -130,12 +130,3 @@ Provata Health does not use paper records for any sensitive information. Use of 
 * Upon initial login, users must change any passwords that were automatically generated for them.
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Officer.
-
-## PaaS Customer Access to Systems
-
-Provata Health grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Provata Health hosted systems.
-
-In the case of data migration, Provata Health does, on a case by case basis, support customers in importing data. In these cases Provata Health support SCP assuring all data is secured and encrypted in transit.
-
-In the case of an investigation, Provata Health will assist customers, at Provata Health's discretion, and law enforcement in forensics.
-

@@ -72,7 +72,7 @@ In the case of a breach, Provata Health shall notify all affected Customers. It 
 
 Dear [Name of Customer]:
 
-I am writing to you from Provata Health, Inc. with important information about a recent breach that affects your account with us. We became aware of this breach on [Insert Date] which occurred on or about [Insert Date]. The breach occurred as follows:
+I am writing to you from Provata Health with important information about a recent breach that affects your account with us. We became aware of this breach on [Insert Date] which occurred on or about [Insert Date]. The breach occurred as follows:
 
 Describe event and include the following information:
 A. A brief description of what happened, including the date of the breach and the date of the discovery of the breach, if known.

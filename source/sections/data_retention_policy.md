@@ -1,6 +1,6 @@
 # Data Retention Policy
 
-Despite not being a requirement within HIPAA, Provata Health understand and appreciates the importance of health data retention. Acting as a subcontractor, and at times a business associate, Provata Health is not directly responsible for health and medical records retention as set forth by each state. Despite this, Provata Health has created and implemented the following policy to make it easier for Provata Health Customers to support data retention laws.
+Despite not being a requirement within HIPAA, Provata Health understands and appreciates the importance of health data retention. Acting as a subcontractor, and at times a business associate, Provata Health is not directly responsible for health and medical records retention as set forth by each state. Despite this, Provata Health has created and implemented the following policy to make it easier for Provata Health Customers to support data retention laws.
 
 ## State Medical Record Laws
 

@@ -22,8 +22,7 @@ Provata Health standardizes and automates configuration management through the u
 8. All software and systems are tested using unit tests and end to end tests.
 9. All committed code is reviewed using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.
 10. Provata Health utilizes development and staging environments that mirror production to assure proper function.
-11. Provata Health also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
-12. Provata Health schedules production deployments every four weeks.
-13. All formal change requests require unique ID and authentication.
-14. ClamAV is run on all production hosts for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available. ClamAV is a part of our Salt-based configuration management and this assures all hosts have anti-virus tools running on them.
+11. Provata Health also deploys environments locally using Docker to assure functionality before moving to staging or production.
+12. All formal change requests require unique ID and authentication.
+13. ClamAV is run on all production hosts for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available. ClamAV is a part of our Salt-based configuration management and this assures all hosts have anti-virus tools running on them.
 15. All physical media is encrypted at provisioning. To verify encryption is consistent and in place for all production storage, checks are performed on a quarterly basis.
