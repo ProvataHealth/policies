@@ -4,17 +4,9 @@ Odyssey Science Innovations, LLC, doing business as Provata Health ("Provata Hea
 
 Provata Health services include the provision of a secure and compliant cloud-based digital health platform. 
 
-## Platform as a Service (PaaS)
+## Software as a Service (SaaS)
 
-PaaS Customers utilize hosted software and infrastructure from Provata Health to deploy, host, and scale custom developed applications and configured databases. These customers are deployed into compliant containers run on systems secured and managed by Provata Health. Provata Health does not have insight or access into application level data of PaaS Customers and, as such, does not have the ability to secure or manage risk associated with application level vulnerabilities and security weaknesses. Provata Health makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of PaaS Customer data through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
-
-PaaS Customers can opt for a list of Services from Provata Health, which include Backup Service, Logging Service, IDS Service, and Disaster Recovery Service. These services are not standard and PaaS Customers must sign up for them in order for Provata Health to manage these areas of security and compliance.
-
-## Platform Add-ons
-
-Add-ons are compliant API-driven services that are offered as part of the Provata Health Platform. These services currently include our Backend as a Service and secure Messaging Service. With Add-ons, Provata Health has access to data models and manages all application level configurations and security.
-
-In the future there may be 3rd party Add-on services available as part of the Provata Health Platform. These 3rd party, or Partner, Services will be fully reviewed by Provata Health to assure they do not have a negative impact on Provata Health's information security and compliance posture.
+SaaS Customers utilize Provata Health's hosted web-based platform and applications (colletively, the "Provata Health Platform"). Provata Health makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of PaaS Customer data through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc). Applications are compliant API-driven services that are offered as part of the Provata Health Platform. There may be third party add-on services available as part of the Provata Health Platform. These 3rd party, or Partner, Services will be fully reviewed by Provata Health to assure they do not have a negative impact on Provata Health's information security and compliance posture.
 
 ## Compliance Inheritance
 
@@ -28,11 +20,11 @@ Below are mappings of HIPAA Rules to Provata Health controls and a mapping of wh
 
 The physical infrastructure environment is hosted at [Amazon Web Services](https://aws.amazon.com/) (AWS). The network components and supporting network infrastructure are contained within the AWS infrastructure and managed by AWS. Provata Health does not have physical access into the network components. The Provata Health environment consists of Cisco firewalls, Apache and nginx web servers, Dropwizard Java application servers, Percona and PostgreSQL database servers, Logstash logging servers, Linux Ubuntu monitoring servers, Salt configuration management server, OSSEC IDS services, Docker containers, and developer tools servers running on Linux Ubuntu.
 
-Within the Provata Health Platform on AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Provata Health assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
+Within the Provata Health Platform on AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Provata Health assumes all data *may* contain ePHI, and provides appropriate protections based on that assumption.
 
 The data and network segmentation mechanism differs depending on the primitives offered by the underlying cloud provider infrastructure:
 
-* Within AWS, hosted load balancers segment data across dedicated Virtual Private Clouds for PaaS Customers and for Platform Add-ons.
+* Within AWS, hosted load balancers segment data across dedicated Virtual Private Clouds.
 
 The result of segmentation strategies employed by Provata Health effectively create RFC 1918, or dedicated, private segmented and separated networks and IP spaces, for each PaaS Customer and for Platform Add-ons.
 
