@@ -64,7 +64,7 @@ The current Provata Health Privacy Officer is Aaron Goldberg ([aaron.goldberg@pr
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of Provata Health security policies and non-compliance with the security regulations [164.308(a)(1)(ii)(c)], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
-The current Provata Health Security Officer is Sean Adkinson ([sean.adkinson@provatahealth.com](mailto:sean.adkinson@provatahealth.com)).
+The current Provata Health Security Officer is Aaron Goldberg ([aaron.goldberg@provatahealth.com](mailto:aaron.goldberg@provatahealth.com)).
 
 ## Organizational Responsibilities
 
